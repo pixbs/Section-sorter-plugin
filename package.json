@@ -1,0 +1,16 @@
+{
+  "name": "section-sorter-plugin",
+  "version": "1.0.0",
+  "description": "Simple sorting plugin for Figma",
+  "main": "dist/code.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "npm run build -- --watch"
+  },
+  "author": "pixbs",
+  "license": "",
+  "devDependencies": {
+    "@figma/plugin-typings": "*",
+    "typescript": "*"
+  }
+}
